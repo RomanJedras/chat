@@ -91,3 +91,7 @@ images/
 vendor/
 package-lock.json
 sass
+css/
+public/appProd.production.bundle.js
+.idea/misc.xml
+.idea/workspace.xml
