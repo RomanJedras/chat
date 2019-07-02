@@ -28,8 +28,7 @@ module.exports = (env) => {
 					sourceMap: false
 				})
 			)
-			
-	}
+		}
 	
 	return {
 		mode: environment,

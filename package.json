@@ -10,7 +10,7 @@
     "init:files": "touch README.md public/index.html sass/style.scss js/index.js",
     "init:gitignore": "curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o .gitignore",
     "start": "babel js/index.js --watch --out-file js/index-compiled.js",
-    "build": "webpack --env production",
+    "build": "webpack --env development",
     "start-weback": "webpack-dev-server --hot --env development"
   },
   "author": "",
